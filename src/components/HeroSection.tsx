@@ -45,9 +45,9 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground leading-tight mb-6"
         >
-          New York
+          <span className="tear-text" data-text="New York">New York</span>
           <br />
-          <span className="text-gradient">Coffee</span>
+          <span className="tear-text text-gradient" data-text="Coffee">Coffee</span>
         </motion.h1>
 
         <motion.p
@@ -56,8 +56,13 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-primary-foreground/70 max-w-xl mx-auto text-lg md:text-xl mb-10 font-light"
         >
-          Premium 100% Arabica beans, freshly roasted to perfection. 
-          An extraordinary coffee experience crafted just for you.
+          <span className="tear-text" data-text="Premium 100% Arabica beans, freshly roasted to perfection.">
+            Premium 100% Arabica beans, freshly roasted to perfection.
+          </span>
+          <br />
+          <span className="tear-text" data-text="An extraordinary coffee experience crafted just for you.">
+            An extraordinary coffee experience crafted just for you.
+          </span>
         </motion.p>
 
         <motion.div

@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import CursorFollower from "@/components/CursorFollower";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import FeaturesSection from "@/components/FeaturesSection";
@@ -9,6 +10,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <main className="overflow-x-hidden">
+      <CursorFollower />
       <Navbar />
       <HeroSection />
       <AboutSection />
